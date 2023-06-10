@@ -7,7 +7,7 @@ export default class Contact extends Component {
   }
 
   componentDidMount(){
-    axios.get("http://localhost:4000/retrieve")
+    axios.get("https://internshipbackend.onrender.com/retrieve")
       .then((res)=>{
         console.log(res.data)
         this.setState({
